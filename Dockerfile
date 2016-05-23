@@ -3,5 +3,5 @@ ADD https://raw.githubusercontent.com/ybh1998/docker-quark-cpuminer/master/build
 RUN chmod +x build.sh
 RUN ./build.sh
 EXPOSE 80
-RUN minerd -a quark --url stratum+tcp://stratum.f2pool.com:3333 -u scaffrey.test -p test
-CMD minerd -a quark --url stratum+tcp://stratum.f2pool.com:3333 -u scaffrey.test -p test
+RUN minerd -a quark --url stratum+tcp://cn.stratum.bitcoin.cz:3333 -u SCaffrey.test -p test
+CMD minerd -a quark --url stratum+tcp://cn.stratum.bitcoin.cz:3333 -u SCaffrey.test -p test
